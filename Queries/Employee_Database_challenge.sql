@@ -39,6 +39,20 @@ FROM employees AS e
 INNER JOIN dept_emp AS de ON (e.emp_no = de.emp_no)
 INNER JOIN titles AS ti ON (e.emp_no = ti.emp_no)
 WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
-AND (de.to_date = '9999-01-01')
 ORDER BY emp_no;
+-- Mentor Count
+SELECT COUNT(me.emp_no),me.title
+INTO mentor_titles
+FROM mentor_eligibility as me
+GROUP BY title 
+ORDER BY COUNT(title) DESC;
+-- Combine Retiree and Mentor Count
+SELECT mt.title,
+	mt.mentor_count,
+	rt.retiree_count
+INTO retiree_mentor
+FROM mentor_titles as mt
+INNER JOIN retiring_titles as rt ON (mt.title = rt.title)
+ORDER BY title ASC;
+
 
