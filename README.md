@@ -35,17 +35,38 @@ Module 7 Employee Database with SQL
 - 1,940 = Total employees eligible born in 1965, employement start date after January , 1999
 - 499 = Highest title for retiring employees: Engineer
     - 459 = Second highes title fr retiring emplyees: Senior Staff
-![retirement_titles](https from github)
-![unique_titles](https from github)
-![retiring_titles](https from github)
-![mentor_eligibilty](https from github)
+    
+retirement_titles
+
+![retirement_titles](https://github.com/robyndook/Pewlett_Hackard_Analysis/blob/14e18af7229a87a0e993653351bfc3771277996f/Analysis/retirement_titles.PNG)
+
+unique_titles
+
+![unique_titles](https://github.com/robyndook/Pewlett_Hackard_Analysis/blob/14e18af7229a87a0e993653351bfc3771277996f/Analysis/unique_titles.PNG)
+
+retiring_titles
+
+![retiring_titles](https://github.com/robyndook/Pewlett_Hackard_Analysis/blob/14e18af7229a87a0e993653351bfc3771277996f/Analysis/retiring_titles.PNG)
+
+mentor_eligibilty
+
+![mentor_eligibilty](https://github.com/robyndook/Pewlett_Hackard_Analysis/blob/14e18af7229a87a0e993653351bfc3771277996f/Analysis/mentorship_eligibilty.PNG)
+
 ###### Summary
 - 72,458 roles will need to be filled. The Senior Engineer department will have he biggest impact
 - Only 358 employees are eligible for mentorship.
     - **Recommendation** Plan for title promotions and increase recruiting efforts
-![mentor_titles](https from github)
+    
+mentor_titles
+
+![mentor_titles](https://github.com/robyndook/Pewlett_Hackard_Analysis/blob/14e18af7229a87a0e993653351bfc3771277996f/Analysis/mentor_titles.PNG)
+
 - **Retirees and Eligible Mentors**
-![retiree_mentor](https from github)
+
+retiree_mentor
+
+![retiree_mentor](https://github.com/robyndook/Pewlett_Hackard_Analysis/blob/14e18af7229a87a0e993653351bfc3771277996f/Analysis/retiree_mentor.PNG)
+
 <!--
 1. [] Overview of the analysis: Explain the purpose of this analysis.
 2. [] Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
