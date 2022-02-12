@@ -48,11 +48,9 @@ GROUP BY title
 ORDER BY COUNT(title) DESC;
 -- Combine Retiree and Mentor Count
 SELECT mt.title,
-	mt.mentor_count,
-	rt.retiree_count
+	mt.count AS mentor_count,
+	rt.count AS retiree_count
 INTO retiree_mentor
-FROM mentor_titles as mt
-INNER JOIN retiring_titles as rt ON (mt.title = rt.title)
+FROM mentor_titles AS mt
+INNER JOIN retiring_titles AS rt ON (mt.title = rt.title)
 ORDER BY title ASC;
-
-
